@@ -1,8 +1,0 @@
-mkdir/touch .dirName/fileName
-
-mkdir -p dirName/dirName2/dirName3
-
-cat << EOF >> target.txt
-first message
-second message
-EOF
