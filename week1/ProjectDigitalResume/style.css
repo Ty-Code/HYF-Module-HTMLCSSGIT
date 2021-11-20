@@ -45,7 +45,7 @@ a:hover {
   ========================================
 */
 
-.containerOuter {
+.container-outer {
   max-width: 1140px;
   width: 60%;
   min-height: 650px;
@@ -64,7 +64,7 @@ a:hover {
   grid-template-columns: 30% 70%;
 }
 
-.containerInnerRight {
+.container-inner-right {
   grid-row: 1/2;
   grid-column: 2/3;
 
@@ -75,7 +75,7 @@ a:hover {
   grid-template-rows: 20% 80%;
 }
 
-.containerInnerLeft {
+.container-inner-left {
   grid-row: 1/2;
   grid-column: 1/2;
 
@@ -89,7 +89,7 @@ a:hover {
   align-items: center;
 }
 
-.containerInnerMost {
+.container-inner-most {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -142,7 +142,7 @@ main ul li {
   ========================================
 */
 
-.languagesList {
+.languages-list {
   list-style: none;
 }
 
@@ -186,26 +186,27 @@ progress {
 
 #passphoto {
   width: 130px;
+  object-fit: cover;
 
-  border-radius: 45%;
+  border-radius: 50%;
   box-shadow: 0 0 8px rgb(0, 0, 0);
   filter: grayscale(0.6);
 }
 
-.introductionText p {
+.introduction-text p {
   text-align: justify;
   letter-spacing: 0.3px;
   line-height: 1.3;
   color: #4e4e4e;
 }
 
-.introductionText p::before {
+.introduction-text p::before {
   content: open-quote;
   font-size: 1.2rem;
   color: #4e4e4e;
 }
 
-.introductionText p::after {
+.introduction-text p::after {
   content: close-quote;
   font-size: 1.2rem;
   color: #4e4e4e;
@@ -213,10 +214,15 @@ progress {
 
 /*
   ========================================
-  Contact Info Table
+  Contact Info
   ========================================
 */
 
-.contactInfo td {
-  padding: 0 5px 10px 5px;
+.contact-info {
+  list-style: none;
+  padding: 0px ;
+}
+
+.contact-info li {
+  padding: 5px 0;
 }

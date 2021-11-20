@@ -15,8 +15,8 @@
     <title>DigitalResume</title>
   </head>
   <body>
-    <div class="containerOuter">
-      <div class="containerInnerRight">
+    <div class="container-outer">
+      <div class="container-inner-right">
         <header>
           <h1>Talha Y.</h1>
           <p>(Prospective) Junior Front-End Developer</p>
@@ -57,16 +57,16 @@
               </li>
             </ul>
           </article>
-          <div class="containerInnerMost">
-            <article>
+          <article class="container-inner-most">
+            <section>
               <h2>Languages</h2>
-              <ul class="languagesList">
+              <ul class="languages-list">
                 <li>Turkish (native)</li>
                 <li>English (proficient)</li>
                 <li>Dutch (beginner)</li>
               </ul>
-            </article>
-            <article class="skills">
+            </section>
+            <section class="skills">
               <h2>Skills</h2>
               <label for="html5">HTML5</label>
               <progress id="html5" max="100" value="80"></progress>
@@ -74,21 +74,21 @@
               <progress id="css3" max="100" value="70"></progress>
               <label for="js">JavaScript</label>
               <progress id="js" max="100" value="10"></progress>
-            </article>
-          </div>
+            </section>
+          </article>
         </main>
       </div>
-      <div class="containerInnerLeft">
+      <aside class="container-inner-left">
         <!-- I used a fake photo because of provacy issues. -->
         <figure>
           <img
             id="passphoto"
             src="https://images.unsplash.com/photo-1591084728795-1149f32d9866?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2844&q=80"
-            alt="foto"
+            alt="Profile photo of Talha"
           />
         </figure>
 
-        <aside class="introductionText">
+        <section class="introduction-text">
           <p>
             <em
               >My background allows me to easily work in multinational environments. I have two
@@ -98,34 +98,26 @@
               quickly adapts to new challenges.</em
             >
           </p>
-        </aside>
-        <section class="contactInfo">
-          <table>
-            <tbody>
-              <tr>
-                <td><i class="fa fa-home fa-lg" aria-hidden="true"></i></td>
-                <td><address>Waalstraat 999, 8899BN, Amsterdam</address></td>
-              </tr>
-              <tr>
-                <td><i class="fa fa-envelope fa-lg" aria-hidden="true"></i></td>
-                <td><a href="mailto:name.surname@gmail.com">name.surname@gmail.com</a></td>
-              </tr>
-              <tr>
-                <td><i class="fa fa-phone fa-lg" aria-hidden="true"></i></td>
-                <td>+31 6 123 45 678</td>
-              </tr>
-              <tr>
-                <td><i class="fa fa-linkedin-square fa-lg" aria-hidden="true"></i></td>
-                <td><a class="links" href="https://linkedin.com">linkedin.com/name</a></td>
-              </tr>
-              <tr>
-                <td><i class="fa fa-github fa-lg" aria-hidden="true"></i></td>
-                <td><a class="links" href="https://github.com/Ty-Code">github.com/Ty-Code</a></td>
-              </tr>
-            </tbody>
-          </table>
         </section>
-      </div>
+        <ul class="contact-info">
+          <li>
+            <i class="fa fa-home fa-lg" aria-hidden="true"></i>&nbspWaalstraat 1, 8899BN, Amsterdam
+          </li>
+          <li>
+            <i class="fa fa-envelope fa-lg" aria-hidden="true"></i
+            >&nbsp<a href="mailto:name.surname@gmail.com">name.surname@gmail.com</a>
+          </li>
+          <li><i class="fa fa-phone fa-lg" aria-hidden="true"></i>&nbsp+31 6 123 45 678</li>
+          <li>
+            <i class="fa fa-linkedin-square fa-lg" aria-hidden="true"></i
+            >&nbsp<a class="links" href="https://linkedin.com">linkedin.com/name</a>
+          </li>
+          <li>
+            <i class="fa fa-github fa-lg" aria-hidden="true"></i
+            >&nbsp<a class="links" href="https://github.com/Ty-Code">github.com/Ty-Code</a>
+          </li>
+        </ul>
+      </aside>
     </div>
   </body>
 </html>
